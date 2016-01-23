@@ -1,0 +1,235 @@
+/* Rotación imagen fondo*/
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(359deg);
+  }
+}
+.rotar
+{
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         200s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;	
+}
+
+.imagen_responsive_ancho
+{
+	width:100%; 
+  	height:auto;
+}
+
+.centrado_logo_fondo{
+	position: fixed;
+  	width:70%;
+  	margin:0 auto 0 auto;
+  	left:14%;
+  	top:-10%;
+  	z-index:-1;
+}
+
+/* FIN Rotación imagen fondo*/
+
+/* Redondeo de imagenes en los articulos*/
+
+.item-page img{
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  padding:5px; 
+  margin-bottom:15px;  
+}
+
+/* Redondeo de imagenes en los articulos*/
+
+.mostread, 
+.latestnews,
+.tagspopular,
+.weblinks, 
+.category-module, 
+.syndicate-module, 
+ul.nav.menu, 
+#login-form {
+         -moz-border-radius: 5px;
+         -webkit-border-radius: 5px;
+         -khtml-border-radius: 5px;
+         border-radius: 5px;
+         background:#eee;
+         border:1px solid #ccc;
+         padding:5px;
+         margin:0px 0px 10px 0px; 
+}
+
+.latestnews,
+.tagspopular,
+.mostread, 
+.weblinks, 
+.category-module {
+         padding:0px 0px 0px 20px; 
+} 
+
+.syndicate-module {
+         display:block; 
+}
+
+body{
+  background-color:#000000;
+  /*background:url(../images/BackgroundWeb01.jpg) no-repeat center center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#FFFFFF;
+}
+
+#logoCentral{
+  width:20%;
+  /*min-width:50px;*/
+  padding-left:2.5%;
+  padding-right:2.5%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+
+#logoCentral img{
+  width:100%;
+  min-width:20%;
+  height:auto;
+}
+
+#left_logoCentral,#right_logoCentral{
+  vertical-align:middle;  
+  margin:0px;
+  font-family:transitionfont;
+}
+
+#left_logoCentral{
+  text-align:right;
+  width:30%;
+}
+
+#left_logoCentral div{
+  float:right;
+}
+
+#right_logoCentral{
+  text-align:left;
+  width:30%;
+}
+
+#right_logoCentral div{
+  float:left;
+}
+
+#topTablePositions{
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  z-index:1;
+}
+
+
+div.blog-featured div.item{
+  background-color:#000000;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  padding-left:10px;
+  padding-right:10px;
+  text-align:justify;
+  margin-bottom:15px;
+  opacity: .99;
+  -moz-opacity: .99;
+  filter:alpha(opacity=99);
+}
+div.blog-featured div.item a{
+	text-decoration:none;
+}
+div.blog-featured div.item img{
+	width:240px;
+    height:160px;
+}
+
+.mod-languages img{
+  width:25px;
+  height:15px;
+}
+
+#divIdioma{
+	position:absolute;
+  	top:10px;
+  	right:10px;
+}
+
+#divIdioma img{
+  z-index:9999;
+}
+
+.redondeado{  
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  padding:5px; 
+  margin-bottom:15px;
+}
+
+.centrado{
+	margin-left:auto;
+	margin-right:auto;  
+}
+
+.gris{
+  background-color:#222222;
+}
+
+.negro{
+  background-color:#000000;
+}
+
+.transparente {
+   opacity: .90;
+   -moz-opacity: .90;
+   filter:alpha(opacity=90);
+   /*float: left;*/
+}
+.transparente-0 {
+   opacity: 1;
+   -moz-opacity: 1;
+   filter:alpha(opacity=100);
+   /*float: left;*/
+}
+.transparente-alto{
+   opacity: .5;
+   -moz-opacity: .5;
+   filter:alpha(opacity=50);
+  
+}
+
+.selectorBanderas{
+  padding-left:10px;
+  
+}
+
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 5px; 
+  }
+
+ul#jj_sl_navigation{
+  margin-top:4%;
+}
+
+h1,h2,h3,h4,h5{
+	color:#AE9343; 
+}
+
+@font-face{
+  font-family:transitionfont;
+  src:url(http://transitionfestival.org/images/FUENTE_TRANSITIONS.ttf);
+}
