@@ -10,6 +10,8 @@
     <files>
         <filename>index.php</filename>
 		<filename>favicon.ico</filename>
+		<filename>template_preview.jpg</filename>
+		<filename>template_thumbnail.jpg</filename>
         <folder>css</folder>
         <folder>js</folder>
         <folder>images</folder>
