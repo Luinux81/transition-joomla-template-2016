@@ -63,12 +63,12 @@ $doc->addScript('/templates/' . $this->template . '/js/main.js', 'text/javascrip
                 <jdoc:include type="modules" name="position-7" style="well" />
             </div>
         </div>
-      
-      </div>
-        <!-- footer -->
+		<!-- footer -->
         <div class='row'>
-          <div class='span12 redondeado gris transparente' style='text-align:center;'> &#169; Transition Crew 2015</div>
+          <div class='span12 redondeado gris transparente' style='text-align:center;'> &#169; Transition Crew 2016</div>
         </div>
+      </div>
+        
     </div>
   	
   	<div id="auxDiv">
